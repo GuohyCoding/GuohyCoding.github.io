@@ -1,0 +1,141 @@
+<!DOCTYPE html><html><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="MARSSx86"><meta name="keywords" content="MARSSx86,Ubuntu"><meta name="author" content="Hongyi Guo"><meta name="copyright" content="Hongyi Guo"><title>MARSSx86 | Hongyi's</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><link rel="dns-prefetch" href="https://hm.baidu.com"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?77a8c2d0f4e8f862b652458768e3fc6a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  }
+} </script></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#简介"><span class="toc-number">1.</span> <span class="toc-text"> 简介</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#关于marssx86"><span class="toc-number">2.</span> <span class="toc-text"> 关于MARSSx86</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#出现背景"><span class="toc-number">2.1.</span> <span class="toc-text"> 出现背景</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#大规模计算的需求"><span class="toc-number">2.1.1.</span> <span class="toc-text"> 大规模计算的需求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#移动嵌入式空间的需求"><span class="toc-number">2.1.2.</span> <span class="toc-text"> 移动/嵌入式空间的需求</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#功能特点"><span class="toc-number">2.2.</span> <span class="toc-text"> 功能特点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#marssx86主要特点"><span class="toc-number">2.2.1.</span> <span class="toc-text"> MARSSx86主要特点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#最重要的功能"><span class="toc-number">2.2.2.</span> <span class="toc-text"> 最重要的功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#基准和应用程序"><span class="toc-number">2.2.3.</span> <span class="toc-text"> 基准和应用程序</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#组成部件"><span class="toc-number">2.3.</span> <span class="toc-text"> 组成部件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#模块化仿真组件"><span class="toc-number">2.3.1.</span> <span class="toc-text"> 模块化仿真组件</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#在ubuntu下安装marssx86"><span class="toc-number">3.</span> <span class="toc-text"> 在Ubuntu下安装MARSSx86</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装g编译器"><span class="toc-number">3.1.</span> <span class="toc-text"> 安装g++编译器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#获得marssx86的源码"><span class="toc-number">3.2.</span> <span class="toc-text"> 获得MARSSx86的源码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#下载磁盘映像"><span class="toc-number">3.3.</span> <span class="toc-text"> 下载磁盘映像</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#编译marssx86"><span class="toc-number">3.4.</span> <span class="toc-text"> 编译MARSSx86</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#运行marssx86"><span class="toc-number">3.5.</span> <span class="toc-text"> 运行MARSSx86</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#安装marssx86时出现的错误"><span class="toc-number">4.</span> <span class="toc-text"> 安装MARSSx86时出现的错误</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/avatar.jpg"></div><div class="author-info__name text-center">Hongyi Guo</div><div class="author-info__description text-center">Nothing is impossible to a willing heart.</div><div class="follow-button"><a href="https://github.com/GuohyCoding">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">6</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">6</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">Categories</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/59f7d76d99a79.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Hongyi's</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> Search</span></a><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="post-info"><div id="post-title">MARSSx86</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-05-09</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/Technology/">Technology</a><div class="post-meta-wordcount"><span>Word count: </span><span class="word-count">1.5k</span><span class="post-meta__separator">|</span><span>Reading time: 5 min</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1>
+<p><a href="http://www.marss86.org/~marss86/index.php/Home" target="_blank" rel="noopener">MARSSx86</a>是一个针对x86-64体系结构的全系统仿真模拟器，运行在Linux系统下。之前曾经做过内存方面的研究，用到了MARSSx86模拟器，但是国内关于MARSSx86的资料比较少，于是就想写点关于MARSSx86相关的东西。首先简单介绍了MARSSx86的相关信息，然后介绍了MARSSx86的安装方法，最后介绍了MARSSx86安装时出现的部分错误的解决办法。</p>
+<a id="more"></a>
+<h1 id="关于marssx86"><a class="markdownIt-Anchor" href="#关于marssx86"></a> 关于MARSSx86</h1>
+<p><strong>MARSSx86是一个周期精确的全系统模拟的x86-64架构工具，特别是多核的实现。MARSSx86是在纽约州立宾汉姆顿大学计算机体系结构和电源感知系统研究组开发的（CAPS研究组）。MARSSx86基于mptlsim多核处理器模拟器，内部多核模拟器基于PTLsim。</strong></p>
+<h2 id="出现背景"><a class="markdownIt-Anchor" href="#出现背景"></a> 出现背景</h2>
+<h3 id="大规模计算的需求"><a class="markdownIt-Anchor" href="#大规模计算的需求"></a> 大规模计算的需求</h3>
+<ol>
+<li>多核服务器，需要模拟大量的工作负载</li>
+<li>需要模拟复杂的存储系统架构，同步的缓存</li>
+<li>在系统组成软件的影响下模拟接口软件与协议</li>
+<li>需要评估能源性能的权衡</li>
+</ol>
+<h3 id="移动嵌入式空间的需求"><a class="markdownIt-Anchor" href="#移动嵌入式空间的需求"></a> 移动/嵌入式空间的需求</h3>
+<ol>
+<li>硬件软件协同设计支持</li>
+<li>用不同的模块支持片上系统</li>
+<li>支持能源消耗的研究</li>
+</ol>
+<h2 id="功能特点"><a class="markdownIt-Anchor" href="#功能特点"></a> 功能特点</h2>
+<h3 id="marssx86主要特点"><a class="markdownIt-Anchor" href="#marssx86主要特点"></a> MARSSx86主要特点</h3>
+<ol>
+<li>全系统全周期精确仿真</li>
+<li>多核x86系统；多核心和缓存模型；相干缓存和片上网络</li>
+<li>启动模拟修改OS /图书馆/应用，支持未修改POSIX线程</li>
+<li>自定义/专有插件接口模块，例如dramsim2（一种时钟周期精确的存储系统仿真器）等</li>
+</ol>
+<h3 id="最重要的功能"><a class="markdownIt-Anchor" href="#最重要的功能"></a> 最重要的功能</h3>
+<ol>
+<li>可以评估实际应用对建筑主流计算机在全系统环境</li>
+<li>可以产生固体和可重复的结果</li>
+<li>具有合理的精度与实际硬件</li>
+<li>足够快来探索设计空间的合理时间</li>
+</ol>
+<h3 id="基准和应用程序"><a class="markdownIt-Anchor" href="#基准和应用程序"></a> 基准和应用程序</h3>
+<ol>
+<li>SPEC CPU 2006 INT/ FP：CPU密集型基准程序</li>
+<li>PARSEC套件：新兴工作负载共享内存并行程序</li>
+<li>Lmbench和STREAM：计算系统的延迟和带宽的基准程序</li>
+<li>pgbench：PostgreSQL基准SQL数据库</li>
+<li>SPEC Jbb：基于JVM的基准</li>
+<li>CloudSuite：大数据应用，网络搜索，网络服务和流媒体等</li>
+</ol>
+<h2 id="组成部件"><a class="markdownIt-Anchor" href="#组成部件"></a> 组成部件</h2>
+<p><strong>MARSSx86的框架包括：</strong></p>
+<ul>
+<li>QEMU仿真模型的CPU，硬盘，网卡，等</li>
+<li>周期精确的仿真模型的CPU，高速缓存，互连，DRAM控制器等</li>
+</ul>
+<h3 id="模块化仿真组件"><a class="markdownIt-Anchor" href="#模块化仿真组件"></a> 模块化仿真组件</h3>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/2.png" alt></p>
+<h1 id="在ubuntu下安装marssx86"><a class="markdownIt-Anchor" href="#在ubuntu下安装marssx86"></a> 在Ubuntu下安装MARSSx86</h1>
+<p><strong>MARSSx86是基于x86 - 64计算机系统的仿真工具。MARSSx86安装在Linux环境下，基于QEMU和PTLsim两个独立的开源项目。</strong></p>
+<h2 id="安装g编译器"><a class="markdownIt-Anchor" href="#安装g编译器"></a> 安装g++编译器</h2>
+<p>首先在Ubuntu终端中键入<code>sudo apt-get install build-essential</code> 来安装build-essential软件包，其中包含了编译c/c++所需要的软件包，安装途中输入<strong>y</strong>继续。</p>
+<h2 id="获得marssx86的源码"><a class="markdownIt-Anchor" href="#获得marssx86的源码"></a> 获得MARSSx86的源码</h2>
+<p><code>$ git clone git://github.com/avadhpatel/marss.git</code></p>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/3.png" alt></p>
+<p>由于我在写该文档以前已经下载好立MARSSx86的源码，所以输入下载命令得到了一个错误。</p>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/4.png" alt></p>
+<p>MARSSx86下载在主文件中，命名为marss，打开marss会看到</p>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/5.png" alt></p>
+<p>其中文本文档22/22.back/111后来生成的，暂时可以不看。可以看到配置文件，插件文件，ptlsim文件（该文件很重要，模拟时要创建machine时用到里面的文件，如下图）。qemu文件，模拟cpu和硬件。</p>
+<h2 id="下载磁盘映像"><a class="markdownIt-Anchor" href="#下载磁盘映像"></a> 下载磁盘映像</h2>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/6.png" alt></p>
+<p>可以通过命令或者到网页中下载所需得磁盘映像，在模拟时用作所需的操作系统。放到主目录下。</p>
+<h2 id="编译marssx86"><a class="markdownIt-Anchor" href="#编译marssx86"></a> 编译MARSSx86</h2>
+<p>因为要用SCons编译工具来编译marss，所以我们要先下载SCons编译工具，利用命令下载和安装SCons编译工具</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget http://prdownloads.sourceforge.net/scons/scons-2.2.0.tar.gz </span><br><span class="line">$ tar zxvf scons-2.2.0.tar.gz</span><br><span class="line">$ <span class="built_in">cd</span> scons-2.2.0</span><br><span class="line">$ python setup.py install --prefix=<span class="variable">$HOME</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/7.png" alt></p>
+<p>接下来开始编译marss，打开marss源代码所在位置。命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> <span class="variable">$MARSS</span></span><br><span class="line">$ scons -Q</span><br></pre></td></tr></table></figure>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/8.png" alt></p>
+<p>SCons脚本文件是用来配置marss的QEMU并且编译所有得源代码。为了编译的marss有调试得支持，命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ scons -Q debug=1</span><br><span class="line">$ scons -Q debug=2 <span class="comment"># 提供更多得调试信息</span></span><br><span class="line">$ scons -Q -j 3 <span class="comment"># 指定命令行使用的最大线程数</span></span><br></pre></td></tr></table></figure>
+<p>在默认情况下，marss编译为单核，模拟多个核，SMP或CMP配置，添加一个选项<code>c = num_cores</code>，命令为<code>$ scons -Q c=8</code>。上述命令将编译的MARSSx86模拟8核CPU。在编译时设置模拟核数的原因是因为有很多地方的源代码需要硬编码的值的核数。</p>
+<h2 id="运行marssx86"><a class="markdownIt-Anchor" href="#运行marssx86"></a> 运行MARSSx86</h2>
+<p>首先安装磁盘映像。我选择mini.iso（这个是Linux的磁盘映像）</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> qemu-img create -f qcow2 micro2014.qcow2 10G</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> qemu-system-x86_64 -m 4G -drive file=micro2014.qcow2,cache=unsafe -cdrom mini.iso -boot d -k en-us</span></span><br></pre></td></tr></table></figure>
+<p>使用下面的命令运行的MARSSx86</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> qemu/qemu-system-x86_64 -m 512 -hda ～/mini.iso</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/9.png" alt></p>
+<p>按下<code>Ctrl-Alt-2</code>，进入模拟</p>
+<p><img src="https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/marssx86/10.png" alt></p>
+<p>输入<code>quit</code>就退出</p>
+<p>之后输入<code>qemu/qemu-system-x86_64–hda/home/wsn/full_system_image/ubuntu-natty.qcow2</code>即可进入MARSSx86</p>
+<h1 id="安装marssx86时出现的错误"><a class="markdownIt-Anchor" href="#安装marssx86时出现的错误"></a> 安装MARSSx86时出现的错误</h1>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ERROR: zlib check failed</span><br><span class="line">Make sure you have zlib library and headers installed</span><br></pre></td></tr></table></figure>
+<p><font color="red">解决办法：</font><code>sudo apt-get install zlib1g-dev</code></p>
+<hr>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ERROR: SDL library not found</span><br><span class="line">ERROR: xll library Check failed</span><br></pre></td></tr></table></figure>
+<p><font color="red">解决办法：</font><code>sudo apt-get install libsdl1.2-dev</code></p>
+<hr>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">gnutls was not found in the pkg-config search path.</span><br><span class="line">Perhaps you should add the directory containing `gnutls.pc'</span><br><span class="line">to the PKG_CONFIG_PATH environment variable</span><br><span class="line">No package 'gnutls' found</span><br><span class="line">VNC TLS support not found, TLS support disabled</span><br></pre></td></tr></table></figure>
+<p><font color="red">解决办法：</font><code>sudo apt-get install libgtk2.0-dev libgnutls-dev libsasl2-dev python-gtk2-dev</code></p>
+<hr>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/bin/sh: 1: curl-config: not found</span><br></pre></td></tr></table></figure>
+<p><font color="red">解决办法：</font><code>sudo apt-get install libcurl4-openssl-dev</code></p>
+<hr>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">qemu/target-i386/kvm.o: In function `kvm_arch_init_vcpu':</span><br><span class="line">kvm.c:(.text+0x1e8e): undefined reference to `BIT'</span><br><span class="line">kvm.c:(.text+0x1e9c): undefined reference to `BIT'</span><br><span class="line">kvm.c:(.text+0x1f10): undefined reference to `BIT'</span><br><span class="line">kvm.c:(.text+0x211e): undefined reference to `BIT'</span><br><span class="line">kvm.c:(.text+0x217e): undefined reference to `BIT'</span><br><span class="line">qemu/target-i386/kvm.o:kvm.c:(.text+0x21dd): more undefined references to `BIT' follow</span><br></pre></td></tr></table></figure>
+<p><font color="red">参考：</font><a href="https://github.com/avadhpatel/marss/commit/221336091ec99e8814b791a9135ae3ea73e14746" target="_blank" rel="noopener">https://github.com/avadhpatel/marss/commit/221336091ec99e8814b791a9135ae3ea73e14746</a></p>
+<hr>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">qemu/libqemu_common.a(vnc-tls.o): In function `vnc_tls_client_setup':</span><br><span class="line">vnc-tls.c:(.text+0x35f): undefined reference to `gnutls_kx_set_priority'</span><br><span class="line">vnc-tls.c:(.text+0x37a): undefined reference to `gnutls_certificate_type_set_priority'</span><br><span class="line">vnc-tls.c:(.text+0x395): undefined reference to `gnutls_protocol_set_priority'</span><br><span class="line">collect2: error: ld returned 1 exit status</span><br><span class="line">scons: *** [qemu/qemu-system-x86_64] Error 1</span><br></pre></td></tr></table></figure>
+<p><font color="red">参考：</font><a href="https://gumdaeng.com/2016/05/27/20160527/" target="_blank" rel="noopener">https://gumdaeng.com/2016/05/27/20160527/</a></p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Hongyi Guo</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://guohongyi.com/2019/05/09/Ubuntu下安装Marss-x86/">https://guohongyi.com/2019/05/09/Ubuntu下安装Marss-x86/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/MARSSx86/">MARSSx86</a><a class="post-meta__tags" href="/tags/Ubuntu/">Ubuntu</a></div><div class="social-share"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script><nav id="pagination"><div class="prev-post pull-left"><a href="/2019/05/13/Becoming_A_Data_Scientist/"><i class="fa fa-chevron-left">  </i><span>Becoming A Data Scientist: Data Processing</span></a></div><div class="next-post pull-right"><a href="/2019/05/01/博客简介/"><span>博客诞生啦</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="vcomment"></div><script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'Rh8B8qrnJ3cukY5PM5TJziVq-gzGzoHsz',
+  appKey:'zHaQG2PQjKnL9mXX2EAbKFDB',
+  placeholder:'Please leave your footprints',
+  avatar:'retro',
+  guest_info:guest_info,
+  pageSize:'5',
+  lang: 'zh-cn'
+})</script></div></div><footer class="footer-bg" style="background-image: url(https://guohy-1258918948.cos.ap-shanghai.myqcloud.com/59f7d76d99a79.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2019 By Hongyi Guo</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="https://guohongyi.com">blog</a>!</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css"><script src="/js/search/local-search.js"></script><script>if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+}</script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
