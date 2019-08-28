@@ -20,11 +20,11 @@
       
         <tags>
             
-            <tag> Coursera </tag>
-            
             <tag> Data Science </tag>
             
             <tag> Machine Learning </tag>
+            
+            <tag> Coursera </tag>
             
         </tags>
       
@@ -49,11 +49,11 @@
       
         <tags>
             
-            <tag> Coursera </tag>
-            
             <tag> Data Science </tag>
             
             <tag> Machine Learning </tag>
+            
+            <tag> Coursera </tag>
             
         </tags>
       
@@ -78,11 +78,11 @@
       
         <tags>
             
-            <tag> Coursera </tag>
-            
             <tag> Data Science </tag>
             
             <tag> Machine Learning </tag>
+            
+            <tag> Coursera </tag>
             
         </tags>
       
@@ -107,11 +107,11 @@
       
         <tags>
             
-            <tag> Coursera </tag>
-            
             <tag> Data Science </tag>
             
             <tag> Machine Learning </tag>
+            
+            <tag> Coursera </tag>
             
         </tags>
       
@@ -124,7 +124,7 @@
       <link href="/2019/05/13/Becoming_A_Data_Scientist/"/>
       <url>/2019/05/13/Becoming_A_Data_Scientist/</url>
       
-        <content type="html"><![CDATA[<h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1><p>我认为学习数据科学比较好的方法是刷Kaggle的<a href="https://www.kaggle.com/kernels" target="_blank" rel="noopener">Kernels</a>，Kaggle上有很多数据科学的竞赛，是初学者学习数据挖掘、机器学习和深度学习等技术非常好的平台，众多大神们也乐意将自己做竞赛的思路和见解发布在Kernels里供大家来观摩学习。我个人会将学习过的Kernels记录下来，我将Jupyter Notebook贴在本文中，本文<strong>介绍了成为一名数据科学家的所需要的技能，介绍了用Python处理数据的整个流程</strong>。</p><a id="more"></a><p>原Kernel在<a href="https://www.kaggle.com/kanncaa1/data-sciencetutorial-for-beginners" target="_blank" rel="noopener">这里</a>，我自己总结的版本在<a href="https://nbviewer.jupyter.org/github/GuohyCoding/BecomingADataScientist/blob/master/BecomingADataScientist.ipynb" target="_blank" rel="noopener">这里</a>，数据集用的是Kaggle中的<a href="https://www.kaggle.com/terminus7/pokemon-challenge" target="_blank" rel="noopener">Pokemon- Weedle’s Cave</a>。数据集中有三个文件可用，第一个包含Pokemon特性(第一列是Pokemon的id)。第二个包含了以前战斗的信息，前两列包含战斗人员的id，第三列包含胜利者的id，<strong>第一列中的Pokemon首先进行攻击</strong>。该数据集的目标是开发一个机器学习模型，能够预测未来Pokemon战斗的结果。</p><p><strong>Content</strong></p><ol><li>Introduction to Python<ul><li>Matplotlib</li><li>Dictionaries</li><li>Pandas</li><li>Logic, control flow and filtering</li><li>Loop data structures</li></ul></li><li>Python Data Science Toolbox<ul><li>User defined function</li><li>Scope</li><li>Nested function</li><li>Default and flexible arguments</li><li>Lambda function</li><li>Anonymous function</li><li>Iterators</li><li>List comprehension</li></ul></li><li>Cleaning Data<ul><li>Diagnose data for cleaning</li><li>Exploratory data analysis</li><li>Visual exploratory data analysis</li><li>Tidy data</li><li>Pivoting data</li><li>Concatenating data</li><li>Data types</li><li>Missing data and testing with assert</li></ul></li><li>Pandas Foundation<ul><li>Review of pandas</li><li>Building data frames from scratch</li><li>Visual exploratory data analysis</li><li>Statistical explatory data analysis</li><li>Indexing pandas time series</li><li>Resampling pandas time series</li></ul></li><li>Manipulating Data Frames with Pandas<ul><li>Indexing data frames</li><li>Slicing data frames</li><li>Filtering data frames</li><li>Transforming data frames</li><li>Index objects and labeled data</li><li>Hierarchical indexing</li><li>Pivoting data frames</li><li>Stacking and unstacking data frames</li><li>Melting data frames</li><li>Categoricals and groupby</li></ul></li></ol><iframe src="https://nbviewer.jupyter.org/github/GuohyCoding/BecomingADataScientist/blob/master/BecomingADataScientist.ipynb" width="900" height="700"></iframe>]]></content>
+        <content type="html"><![CDATA[<h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1><p>我认为学习数据科学比较好的方法是刷Kaggle的<a href="https://www.kaggle.com/kernels" target="_blank" rel="noopener">Kernels</a>，Kaggle上有很多数据科学的竞赛，是初学者学习数据挖掘、机器学习和深度学习等技术非常好的平台，众多大神们也乐意将自己做竞赛的思路和见解发布在Kernels里供大家来观摩学习。我个人会将学习过的Kernels记录下来，我将Jupyter Notebook贴在本文中，本文<strong>介绍了成为一名数据科学家的所需要的技能，介绍了用Python处理数据的整个流程</strong>。</p><a id="more"></a><p>原Kernel在<a href="https://www.kaggle.com/kanncaa1/data-sciencetutorial-for-beginners" target="_blank" rel="noopener">这里</a>，我自己总结的版本在<a href="https://nbviewer.jupyter.org/github/GuohyCoding/BecomingADataScientist/blob/master/BecomingADataScientist.ipynb" target="_blank" rel="noopener">这里</a>，数据集用的是Kaggle中的<a href="https://www.kaggle.com/terminus7/pokemon-challenge" target="_blank" rel="noopener">Pokemon- Weedle’s Cave</a>。数据集中有三个文件可用，第一个包含Pokemon特性(第一列是Pokemon的id)。第二个包含了以前战斗的信息，前两列包含战斗人员的id，第三列包含胜利者的id，<strong>第一列中的Pokemon首先进行攻击</strong>。该数据集的目标是开发一个机器学习模型，能够预测未来Pokemon战斗的结果。</p><h1 id="jupyter-notebook"><a class="markdownIt-Anchor" href="#jupyter-notebook"></a> Jupyter Notebook</h1><iframe src="https://nbviewer.jupyter.org/github/GuohyCoding/BecomingADataScientist/blob/master/BecomingADataScientist.ipynb" width="900" height="700"></iframe>]]></content>
       
       
       <categories>
@@ -136,11 +136,11 @@
       
         <tags>
             
+            <tag> Python </tag>
+            
             <tag> Data Science </tag>
             
             <tag> Machine Learning </tag>
-            
-            <tag> Python </tag>
             
         </tags>
       
