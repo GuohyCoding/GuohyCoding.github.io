@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Become a Data Scientist-Machine Learning Usage</title>
+      <link href="/2019/08/22/Become-a-Data-Scientist-Machine-Learning-Usage/"/>
+      <url>/2019/08/22/Become-a-Data-Scientist-Machine-Learning-Usage/</url>
+      
+        <content type="html"><![CDATA[<h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1><p>原Kernel在<a href="https://www.kaggle.com/kanncaa1/data-sciencetutorial-for-beginners" target="_blank" rel="noopener">这里</a>，数据集用的是Kaggle中的<a href="https://www.kaggle.com/uciml/biomechanical-features-of-orthopedic-patients" target="_blank" rel="noopener">Biomechanical features of orthopedic patients</a>，数据描述见Jupyter Notebook。这个Jupyter Notebook介绍了在Python3中机器学习相关的操作，包括监督学习和非监督学习。</p><a id="more"></a><h1 id="jupyter-notebook"><a class="markdownIt-Anchor" href="#jupyter-notebook"></a> Jupyter Notebook</h1><iframe src="https://nbviewer.jupyter.org/github/GuohyCoding/MachineLearningUsage/blob/master/MachineLearningUsage.ipynb" width="900" height="700"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> Technology </category>
+          
+          <category> Becoming A Data Scientist </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> Data Science </tag>
+            
+            <tag> Machine Learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Coursera林轩田机器学习基石课程总结--How Can Machine Learn Better?</title>
       <link href="/2019/07/15/Coursera%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%934/"/>
       <url>/2019/07/15/Coursera%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%934/</url>
@@ -120,9 +151,9 @@
     
     
     <entry>
-      <title>Becoming A Data Scientist: Data Processing</title>
-      <link href="/2019/05/13/Becoming_A_Data_Scientist/"/>
-      <url>/2019/05/13/Becoming_A_Data_Scientist/</url>
+      <title>Becoming a Data Scientist-Data Processing</title>
+      <link href="/2019/05/13/Becoming_A_Data_Scientist_Data_Processing/"/>
+      <url>/2019/05/13/Becoming_A_Data_Scientist_Data_Processing/</url>
       
         <content type="html"><![CDATA[<h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1><p>我认为学习数据科学比较好的方法是刷Kaggle的<a href="https://www.kaggle.com/kernels" target="_blank" rel="noopener">Kernels</a>，Kaggle上有很多数据科学的竞赛，是初学者学习数据挖掘、机器学习和深度学习等技术非常好的平台，众多大神们也乐意将自己做竞赛的思路和见解发布在Kernels里供大家来观摩学习。我个人会将学习过的Kernels记录下来，我将Jupyter Notebook贴在本文中，本文<strong>介绍了成为一名数据科学家的所需要的技能，介绍了用Python处理数据的整个流程</strong>。</p><a id="more"></a><p>原Kernel在<a href="https://www.kaggle.com/kanncaa1/data-sciencetutorial-for-beginners" target="_blank" rel="noopener">这里</a>，我自己总结的版本在<a href="https://nbviewer.jupyter.org/github/GuohyCoding/BecomingADataScientist/blob/master/BecomingADataScientist.ipynb" target="_blank" rel="noopener">这里</a>，数据集用的是Kaggle中的<a href="https://www.kaggle.com/terminus7/pokemon-challenge" target="_blank" rel="noopener">Pokemon- Weedle’s Cave</a>。数据集中有三个文件可用，第一个包含Pokemon特性(第一列是Pokemon的id)。第二个包含了以前战斗的信息，前两列包含战斗人员的id，第三列包含胜利者的id，<strong>第一列中的Pokemon首先进行攻击</strong>。该数据集的目标是开发一个机器学习模型，能够预测未来Pokemon战斗的结果。</p><h1 id="jupyter-notebook"><a class="markdownIt-Anchor" href="#jupyter-notebook"></a> Jupyter Notebook</h1><iframe src="https://nbviewer.jupyter.org/github/GuohyCoding/BecomingADataScientist/blob/master/BecomingADataScientist.ipynb" width="900" height="700"></iframe>]]></content>
       
@@ -130,6 +161,8 @@
       <categories>
           
           <category> Technology </category>
+          
+          <category> Becoming A Data Scientist </category>
           
       </categories>
       
