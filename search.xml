@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Become a Data Scientist-Statistical Learning Tutorial</title>
+      <link href="/2019/09/02/Become-a-Data-Scientist-Statistical-Learning-Tutorial/"/>
+      <url>/2019/09/02/Become-a-Data-Scientist-Statistical-Learning-Tutorial/</url>
+      
+        <content type="html"><![CDATA[<h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1><p>原Kernel在<a href="https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners" target="_blank" rel="noopener">这里</a>，数据集用的是Kaggle中的<a href="https://www.kaggle.com/uciml/breast-cancer-wisconsin-data" target="_blank" rel="noopener">Breast Cancer Wisconsin (Diagnostic) Data Set</a>，数据描述见Jupyter Notebook。这个Jupyter Notebook介绍了在Python3中统计相关的操作，方便研究人员分析数据，对数据进行预处理。</p><a id="more"></a><h1 id="jupyter-notebook"><a class="markdownIt-Anchor" href="#jupyter-notebook"></a> Jupyter Notebook</h1><iframe src="https://nbviewer.jupyter.org/github/GuohyCoding/StatisticalLearningTutorial/blob/master/Statistical%20Learning%20Tutorial.ipynb" width="900" height="700"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> Technology </category>
+          
+          <category> Becoming A Data Scientist </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> Data Science </tag>
+            
+            <tag> Machine Learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Become a Data Scientist-Machine Learning Usage</title>
       <link href="/2019/08/22/Become-a-Data-Scientist-Machine-Learning-Usage/"/>
       <url>/2019/08/22/Become-a-Data-Scientist-Machine-Learning-Usage/</url>
