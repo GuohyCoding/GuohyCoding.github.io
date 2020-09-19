@@ -50,7 +50,7 @@
 <li>C/C++ -&gt; 常规 -&gt; 附加包含目录：D:\Program Files\Visual Leak Detector\include</li>
 <li>链接 -&gt; 常规 -&gt; 附加库目录：D:\Program Files\Visual Leak Detector\lib\Win32</li>
 </ul>
-<p>使用的使用在cpp文件开头引用#include “vld.h”，如果有预编译头文件stdafx.h，则需要放到stdafx.h之后</p>
+<p>在cpp文件开头引用#include “vld.h”，如果有预编译头文件stdafx.h，则需要放到stdafx.h之后</p>
 <p>如果VS是VS2015以上版本，安装完VLD会将VLD的配置文件vld.ini加到环境变量中，我以VS2019为例，介绍下VLD在VS高版本下的编译和使用</p>
 <h2 id="在vs2019中编译vld"><a class="markdownIt-Anchor" href="#在vs2019中编译vld"></a> 在VS2019中编译VLD</h2>
 <p>为了能够在VS2019中使用VLD，需要手动编译VLD的源码，首先下载VLD的源码：<a href="https://github.com/KindDragon/vld" target="_blank" rel="noopener">https://github.com/KindDragon/vld</a></p>
